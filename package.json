@@ -1,0 +1,24 @@
+{
+  "name": "account-service",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "start": "node lib/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markus-wahl/account-service.git"
+  },
+  "author": "Markus Wahl",
+  "homepage": "https://github.com/markus-wahl/account-service#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "typescript-rest": "^2.2.2"
+  }
+}
