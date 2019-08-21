@@ -1,13 +1,6 @@
 # account-service
 
-## Preparations Undertaken
-`
-npm init
-npm install --save-dev typescript
-npm install --save-dev jest ts-jest @types/jest
-`
-
-## Preparations After git clone
+## Preparations
 `
 npm install --save-dev typescript
 `
